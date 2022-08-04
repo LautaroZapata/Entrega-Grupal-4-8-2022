@@ -10,19 +10,28 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="divlabel d-flex justify-content-center align-items-center">
-        <h1>Formulario de prueba</h1>
+    <div class="divMain d-flex justify-content-center align-items-center flex-wrap">
         
-        <label for="name">
-            <input type="text" name="name" id="name" placeholder="Ingresa tu nombre">
-        </label>
-        <label for="mail">
-            <input type="email" name="mail" id="mail" placeholder="Ingresa tu email">
-        </label>
-        <label for="phone">
-            <input type="number" name="phone" id="phone" placeholder="Ingresa tu número">
-        </label>
-        <button type="submit" id="enviar">Enviar</button>
+        <div class="h1Container d-flex justify-content-center">
+            <h1 class="h1Title">Formulario de prueba</h1>
+        </div>
+        
+        <div class="d-flex flex-column divLabel">
+
+            <label for="name">
+                <input type="text" name="name" id="name" placeholder="Ingresa tu nombre">
+            </label>
+            <label for="mail">
+                <input type="email" name="mail" id="mail" placeholder="Ingresa tu email">
+            </label>
+            <label for="phone">
+                <input type="number" name="phone" id="phone" placeholder="Ingresa tu número">
+            </label>
+            
+            <button type="submit" id="enviar">Enviar</button>
+        
+        </div>
+        
 
         <a href="https://crudcrud.com/api/ed1ee763fc9e43e5bb4a5211bb714b37/grupal" target="_blank">Ingresa para ver los datos del formulario.</a>
 
